@@ -18,7 +18,7 @@ public class EvenFibonacciNumbers {
      */
     public static int addEvenNumbers( int max) {
 
-        int previous = 1, current = 2, next = 0,   sum = 0;
+        int previous = 1, current = 2, next = 0,   sum = 0;//init fibo series 1, 2 ...
 
         //check if the current fib number has reached maximum value
         while (current < max ){
