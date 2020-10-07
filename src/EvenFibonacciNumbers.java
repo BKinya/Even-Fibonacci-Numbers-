@@ -2,7 +2,8 @@ import java.util.ArrayList;
 
 public class EvenFibonacciNumbers {
 
-    static int num = 1, num1 = 2, num2;
+    //Fibonacci series starts with 0 
+    static int num = 0, num1 = 1, num2;
 
 
     public static void main(String[] args) {
@@ -18,7 +19,7 @@ public class EvenFibonacciNumbers {
      */
     public static int addEvenNumbers( int max) {
 
-        int previous = 1, current = 2, next = 0,   sum = 0;//init fibo series 1, 2 ...
+        int previous = 0, current = 1, next = 0,   sum = 0;//init fibo series 0, 1 ...
 
         //check if the current fib number has reached maximum value
         while (current < max ){
